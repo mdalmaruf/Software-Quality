@@ -1,4 +1,5 @@
 package testcases;
+
 import myClass.*;
 import static org.junit.Assert.*;
 
@@ -8,11 +9,11 @@ public class SquareTest {
 
 	@Test
 	public void test() {
-		MyClass func2 = new MyClass();
-		int value = 100;
-		int result2 = func2.square(10);
-		assertEquals(value,result2);
-		
+//		MyClass func2 = new MyClass();
+		int value = 101;
+		int result2 = MyClass.square(10);
+		assertEquals(value, result2);
+
 //		fail("Not yet implemented");
 	}
 

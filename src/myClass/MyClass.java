@@ -10,7 +10,7 @@ public class MyClass {
 	
 	//function 2	
 	public static int square (int x) {
-		return x*x;
+		return x*x+1;
 	}
 	
 	//function 3
