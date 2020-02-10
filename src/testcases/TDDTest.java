@@ -31,16 +31,16 @@ public class TDDTest {
 		assertEquals("ABDC", str.swap("ABCD"));
 	}
 	
-	@Test
-	public void swapTest1Char() {
-		TDD str = new TDD();
-		assertEquals("A", str.swap("A"));
-	}
-	
-	@Test
-	public void swapTestEmpty() {
-		TDD str = new TDD();
-		assertEquals("", str.swap(""));
-	}
+//	@Test
+//	public void swapTest1Char() {
+//		TDD str = new TDD();
+//		assertEquals("A", str.swap("A"));
+//	}
+//	
+//	@Test
+//	public void swapTestEmpty() {
+//		TDD str = new TDD();
+//		assertEquals("", str.swap(""));
+//	}
 	
 }

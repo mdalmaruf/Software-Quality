@@ -47,14 +47,14 @@ public class TestCoverage {
 		return result.toString().trim();
 	}
 
-	public static void main(String[] args) {
-		int y[] = { -12, -3, -4, -2 };
-
-		int x = findMax(y);
-		System.out.println(x);
-
-		String st = reverseWord("Hello world");
-		System.out.println(st);
-	}
+//	public static void main(String[] args) {
+//		int y[] = { -12, -3, -4, -2 };
+//
+//		int x = findMax(y);
+//		System.out.println(x);
+//
+//		String st = reverseWord("Hello world");
+//		System.out.println(st);
+//	}
 
 }

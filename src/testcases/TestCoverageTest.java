@@ -8,10 +8,12 @@ import myClass.TestCoverage;
 
 public class TestCoverageTest {
 
+	TestCoverage tst = new TestCoverage(); 
 	@Test  
     public void testFindMax(){  
         System.out.println("test case find max");  
-        assertEquals(4,TestCoverage.findMax(new int[]{1,3,4,2}));  
+        assertEquals(4,TestCoverage.findMax(new int[]{1,3,4,2})); 
+        assertEquals(-1,TestCoverage.findMax(new int[]{-1,-3,-4,-2})); 
         
     }  
     @Test  
